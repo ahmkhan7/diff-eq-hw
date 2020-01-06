@@ -9,7 +9,7 @@
 # Many useful first-order differential equations don't have a 'clean' algebraic solution
 # We can still get an approximate solution using the Euler and Fourth Order Runge-Kutta methods
 
-# I was given the above problem as homework for differential equations
+# I was given the above problem as homework for a Differential Equations course
 # Runge-Kutta is very tedious to do by hand
 # So, I wrote this program to do the tedious work for me
 
