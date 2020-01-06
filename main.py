@@ -36,7 +36,8 @@ def exact_solution(x):
     return 3 * math.exp(x) - 2 * x - 2         # math.exp(x) = e^x
 
 step = 0.1
-x = 0.0
+
+x = 0
 y = 1
 
 iterations = (int)(1 / step) + 1
@@ -47,7 +48,7 @@ for i in range (iterations):
     y = runge_kutta_solution(step, x, y)
     x += step
 
-x = 0.0
+x = 0
 y = 1
 
 print("Euler solution: ")
