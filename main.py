@@ -1,6 +1,7 @@
 # Problem:
 # dx/dy = 2x + y
 # y(0) = 1
+# 0 <= x <= 1
 # Solve the given differential equation using the Euler and Runge-Kutta methods
 
 # Some background:
